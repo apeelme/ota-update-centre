@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 OTA Update Center
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <string name="app_name">OTA Frissítő</string>
+    
+    <string name="notif_text_rom">OTA ROM frissítés elérhető</string>
+    <string name="notif_source">OTA Frissítő</string>
+    
+    <string name="alert_nodata_title">Nincs kapcsolat!</string>
+    <string name="alert_nodata_message">Nincs kapcsolat\nKérlek kapcsold be a Wi-Fi-t vagy engedélyezd a Mobilnetet a frissítések ellenőrzéséhez.</string>
+    <string name="alert_nowifi_title">Nincs Wi-Fi kapcsolat!</string>
+    <string name="alert_nowifi_message">Jelenleg Mobilneten kapcsolódsz az internetre\nA frissítések nagy méretű fájlok letöltésével járhatnak.\nEz plusz költséget jelenthet bizonyos szolgáltatóknál. Használj Wi-Fi-t!</string>
+    <string name="alert_wifi_settings">Wi-Fi Beállítások</string>
+    <string name="alert_ignore">Átugrás</string>
+    <string name="alert_exit">Kilépé</string>
+    <string name="alert_options_title">Opciók</string>
+    <string name="alert_rename_title">Fájl átnevezése</string>
+    <string name="alert_rename_message">Írd be az új fájlnevet</string>
+    <string name="alert_cancel">Mégsem</string>
+    <string name="alert_rename">Átnevez</string>
+    <string name="alert_install_title">ZIP Telepítése</string>
+    <string name="alert_install">Telepítés</string>
+    <string name="alert_install_message">A készülék újraindul recovery módban hogy a ZIP fájlt telepíthesse. A telepítés végeztével a készülék automatikusan újraindul.</string>
+    <string name="alert_noinstall_message">Sajnos a frissítést manuálisan kell elvégezned.\nKérlek mindig tartsd be a telepítéshez leírtakat\n\nA .zip fájlt itt találod: %1$s</string>
+    <string name="alert_update_title">ROM frissítés elérhető!</string>
+    <string name="alert_download">Letöltés</string>
+    <string name="alert_downloading">Letöltés&#8230;</string>
+    <string name="alert_unsupported_title">Nemm támogatott ROM</string>
+    <string name="alert_unsupported_message">A ROM fejlesztője nem engedélyezte az OTA Frissítő működését! Kérd meg (kedvesen) hogy engedélyezze az alkalmazás használatához!</string>
+    <string name="alert_update_to">A csomag a jelenlegi ROM-ot (%1$s) a következő verzióra frissíti: %2$s</string>
+    <string name="alert_prune_title">Ennél régebbi fájlok tölése</string>
+    
+    <string name="menu_view">Letöltött frissítések</string>
+    <string name="menu_about">Névjegy</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="menu_refresh">Frissítés</string>
+    <string name="menu_exit">Kilépés</string>
+    <string name="menu_prune">Régi fájlok törlése</string>
+    <string name="menu_donate">Támogatás</string>
+    
+    <string name="toast_rename">Fájl átnevezése sikeres</string>
+    <string name="toast_rename_error">Hiba a fájl átnevezésekor</string>
+    <string name="toast_delete">Fájl törlése sikeres</string>
+    <string name="toast_delete_error">Hiba a kijelölt fájlok törlésekor</string>
+    <string name="toast_prune">Régi fájl(ok) törlése sikeres</string>
+    <string name="toast_prune_error">Hiba egy vagy több fájl törlésekor</string>
+    <string name="toast_no_updates">Jelenleg nem áll rendelkezésre frissítés</string>
+    <string name="toast_fetch_error">Hiba az OTA információk lekérésekor</string>
+    <string name="toast_download_nospace">Az SD kártyán nem áll rendelkezésre elengendő hely!</string>
+    <string name="toast_download_interrupted">A letöltés megszakadt!</string>
+    <string name="toast_download_md5_mismatch">MD5 hiba - a letöltött fájl sérült!</string>
+    <string name="toast_download_error">Hiba a letöltéskor!</string>
+    <string name="toast_nosd_shared">Az SD kártya nem áll rendelkezésre - USB tárhelyként használod</string>
+    <string name="toast_nosd_error">Az SD kártya nem áll rendelkezésre</string>
+    
+    <string name="about_title">Névjegy</string>
+    <string name="about_ota_title">OTA Frissítő</string>
+    <string name="about_version_title">Verzió</string>
+    <string name="about_version_unknown">Ismeretlen Verzió</string>
+    
+    <string name="main_device_info">Eszköz információ</string>
+    <string name="main_device">Eszköz</string>
+    <string name="main_rom">ROM</string>
+    <string name="main_version">ROM Verzió</string>
+    <string name="main_otaid">OTA Frissítő ID</string>
+    <string name="main_updates">Frissítések</string>
+    <string name="main_avail_updates">Elérhető frissítések</string>
+    <string name="main_updates_none">Nincs elérhető frissítés</string>
+    <string name="main_updates_error">Hiba a frissítési információk lekérésekor: %1$s</string>
+    <string name="main_updates_new">Új frissítés: %1$s (verzió %2$s)</string>
+
+    <string name="contributors_title">Közreműködők</string>
+    <string name="contributors_error">Hiba a fájl betöltésekor</string>
+    
+    <string name="license_title">Licensz</string>
+    <string name="license_apache_title">Apache Licensz</string>
+    <string name="license_error">Hiba a licensz fájl betöltésekor</string>
+    
+    <string name="settings_notifications">Értesítési Beállítások</string>
+    <string name="display_notifications">Értesítések megjelenítése</string>
+    <string name="notify_default">Értesítések bekapcsolva</string>
+    <string name="notify_false">Értesítések kikapcsolva</string>
+</resources>
