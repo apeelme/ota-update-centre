@@ -33,7 +33,7 @@
     <string name="alert_rename_message">Írd be az új fájlnevet</string>
     <string name="alert_cancel">Mégsem</string>
     <string name="alert_rename">Átnevez</string>
-    <string name="alert_install_title">ZIP Telepítése</string>
+    <string name="alert_install_title">Csomag Telepítése</string>
     <string name="alert_install">Telepítés</string>
     <string name="alert_install_message">A készülék újraindul recovery módban hogy a ZIP fájlt telepíthesse. A telepítés végeztével a készülék automatikusan újraindul.</string>
     <string name="alert_noinstall_message">Sajnos a frissítést manuálisan kell elvégezned.\nKérlek mindig tartsd be a telepítéshez leírtakat\n\nA .zip fájlt itt találod: %1$s</string>

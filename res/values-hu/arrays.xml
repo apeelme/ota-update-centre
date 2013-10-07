@@ -24,8 +24,8 @@
     
     <string-array name="install_options">
         <!-- <item>Backup First</item> -->
-        <item>Adatok törlése</item>
-        <item>Cache törlése</item>
+        <item>Adatok törlése (wipe data)</item>
+        <item>Cache törlése (wipe cache)</item>
     </string-array>
     
     <string-array name="file_ages">
